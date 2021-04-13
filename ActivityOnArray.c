@@ -11,7 +11,7 @@ int main()
     };
 
 
-            //int Declaration
+            //var Declaration
     int idd, pin, IDChecker, pinChecker;
 
 

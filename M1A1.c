@@ -19,11 +19,11 @@ int average(int total){
 int main(){
 
     int check, firstSubGrade, secondSubGrade, thirdSubGrade, fourthSubGrade, fifthSubGrade;/*<=== declaration if all integer variables including the error checker ===<<<- */
-                /* <===  ===<<<- */
+             
     printf("Enter five subjects grade: \n"); /* <=== asks the user to enter 5 grades ===<<<- */
     check = scanf("%d %d %d %d %d", &firstSubGrade, &secondSubGrade, &thirdSubGrade, &fourthSubGrade, &fifthSubGrade);
 
-    if(!check){     /* <=== checks the user's Input if it is ineger/valid ===<<<- */
+    if(!check){     /* <=== checks the user's Input if it is an integer/valid ===<<<- */
         printf("invalid Input. . . \n\n\n\n");/* <=== error message ===<<<- */
         return 0;/* <=== ends program if not valid ===<<<- */
     }
